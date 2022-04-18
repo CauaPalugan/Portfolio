@@ -11,8 +11,8 @@
 </head>
 <body>
     <header>
-        <div>
-            <img class="img-cabecalho" src="imagens/caua-pc.png" alt="">
+        <div class="cabecalho">
+            <a href="#principal"><img class="img-cabecalho" src="imagens/caua-pc.png" alt=""></a>
         </div>
         <nav>
             <ul type="none" class="menu">
@@ -25,7 +25,7 @@
     </header>
 
     <main>
-        <section class="principal">
+        <section id="principal" class="principal">
             <div class="texto-principal">
                 <span class="texto-ola">ÓLA, SOU O</span>
                 <h1 class="texto-nome">Cauã Palugan Coelho</h1>
@@ -48,15 +48,15 @@
 
         <section id="sobre-mim" class="sobre-mim">
             <div class="img-sobre-mim">
-                <img src="imagens/caua-joia.png" alt="">
+                <img class="img-sobre-mim-edit" src="imagens/caua-joia.png" alt="">
             </div>
             <div>
                 <h1 class="titulo-sobre-mim">Sobre Mim</h1>
                 <div class="texto-sobre-mim">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat esse possimus quasi non a ratione incidunt nemo dolores dolore unde! Ratione eveniet dolor dolore iusto rem et adipisci? Expedita, quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus et, asperiores, dolor perferendis labore qui magnam excepturi enim dicta totam error? Modi, accusantium eaque dolorem sunt asperiores tempora illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus velit earum minima tempore sit voluptatem nulla repellendus sint vero, nesciunt numquam molestias aut. Saepe culpa rem quo. Laudantium, maxime sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum unde incidunt ullam odio voluptatibus maxime esse asperiores sed minima eaque nihil quo cumque dicta expedita ipsam ipsum cum facere?</p>
+                    <p>Olá, sou o Cauã Palugan Coelho sou desenvolvedor Front-End e estudante de Ciências da Computação, atualmente tenho 18 anos e sou apaixonado pelo mundo da programação, comecei meus estudos nessa área em junho/2021 fazendo um curso de Python pela internet, foi quando percebi que gostava muito de desenvolver e ver que aquelas aplicações mesmos simples eram eu que desenvolvia. <br> Atualmente estou me especializando na área do Front-end, mas com o tempo e dedicação pretendo me tornar um desenvolvedor Full-Stack, para isso em paralelo com a faculdade continuo fazendo cursos e bootcamps na internet no intuito de sempre evoluir e aprender novas coisas.</p>
                 </div>    
                 <div class="curriculo">
-                    <a class="link" href="#">
+                    <a class="link" href="Curriculo programação.pdf" target="_blank">
                     <i class="fa-solid fa-cloud-arrow-down"></i>    
                     Currículo</a>
                 </div>
@@ -88,10 +88,10 @@
             <h1 class="titulo-projetos">Projetos</h1>
             <div class="projetos-grid">
                 <article class="projeto">
-                    <img class="projeto-img" src="" alt="" />
+                    <img class="projeto-img" src="imagens/img-trunfo.png" alt="" />
                     <h2 class="titulo-projeto">Trunfo Carros</h2>
                     <p class="descricao-projeto">
-                    Projeto desenvolvido a partir da Imersão dev feito pela Alura, onde consiste em ser <br> um Trunfo de carros para você se divertir com seus familiares é amigos. 
+                    Projeto desenvolvido a partir da Imersão dev feito pela Alura, onde consiste em ser um Trunfo de carros para você se divertir com seus familiares é amigos. 
                     </p>
                     <div class="icones">
                         <a class="git" href="https://github.com/CauaPalugan/Super-Trunfo-Carro" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -105,7 +105,7 @@
                 </article>
               
                 <article class="projeto">
-                    <img class="projeto-img" src="" alt="" />
+                    <img class="projeto-img" src="imagens/img-mentalista.png" alt="" />
                     <h2 class="titulo-projeto">Mentalista</h2>
                     <p class="descricao-projeto">
                     Projeto desenvolvido a partir da Imersão dev feito pela Alura, onde consiste em você adivinhar o número em que o computador pensou, um jogo bem divertido para ver se você é bom de chute.
@@ -165,7 +165,7 @@
                         <div class="contato-esquerda1">
                             <img class="contato-img" src="imagens/caua-ideia.png" alt="">
                             <div class="contato-escrito">
-                                <h2 class="contato-h2">Tem alguma ideia em mente é quer fazer um orçamento?</h2>
+                                <h2 class="contato-h2">Tem alguma ideia em mente e quer fazer um orçamento?</h2>
                                 <h3 class="contato-h3">Me contate por alguma das maneiras abaixo, irei te responder o mais rapido possivel para te ajudar!!!</h3>
                             </div> 
                         </div>
@@ -185,13 +185,13 @@
                                 E-mail</a>
                         </div>
                     </div>
-                    <div>
+                    <!--<div>
                         <form class="form" method="post" action="email.php">
                             <input class="field" name="nome" placeholder="Nome">
                             <input class="field" name="email" placeholder="E-mail">
                             <textarea class="field2" name="mensagem" placeholder="Digite sua mensagem aqui."></textarea>
                             <input class="field3" type="submit" value="Enviar">
-                        </form>  
+                        </form> --> 
                     </div>
                 </div>
             </article>

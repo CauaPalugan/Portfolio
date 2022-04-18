@@ -367,8 +367,14 @@ header{
   .projeto-img{
       width: 550px;
       height: 205px;
-      border-radius: 25px;
+      border-radius: 25px 25px 0px 0px;
       width: 100%;
+      transition: transform .5s ease;
+  }
+
+  .projeto-img:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
   }
 
   .titulo-projeto{
@@ -617,4 +623,261 @@ header{
 
 ::-webkit-scrollbar-thumb {
     background: var(--cor2);
+    }
+
+    @media (max-width: 1450px){
+        .img-sobre-mim{
+            margin-left: 0px;
+        }
+
+        .texto-sobre-mim{
+            margin-right: 0px;
+        }
+
+        /*Conhecimentos*/
+
+        .conhecimentos{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .html-texto{
+            font-size: 1.2em;
+            padding: 15px;
+        }
+
+        /*Projetos*/
+
+        .titulo-projetos{
+            padding-bottom: 0px;
+        }
+
+        .projetos-grid{
+            margin: 100px;
+        }
+    }
+
+    @media (max-width: 1325px){
+        /*Cabeçalho*/
+        .img-cabecalho {
+            width: 90px;
+            height: 70px;
+            padding-right: 10px;
+        }
+
+        .menu-items {
+            font-size: 1em;
+        }
+
+        /*Principal*/
+
+        .texto-ola {
+            font-size: 1.5em;
+        }
+
+        .texto-nome{
+            font-size: 2.5em;
+        }
+
+        .texto-profissao{
+            font-size: 1.5em;
+        }
+
+        .linkedin{
+            width: 150px;
+        }
+
+        .link{
+            font-size: 1em;
+        }
+        
+        .imagem-principal {
+            width: 400px;
+            height: 400px;
+        }
+
+        /*Sobre Mim*/
+
+        .img-sobre-mim{
+            margin-left: 0px;
+            padding: 50px;
+        }
+
+        .img-sobre-mim-edit{
+            width: 300px;
+        }
+
+        .titulo-sobre-mim{
+            font-size: 2em;
+            padding-bottom: 30px;
+        }
+
+        .texto-sobre-mim{
+            margin-right: 0px;
+            padding-bottom: 30px;
+        }
+
+        .curriculo{
+            width: 130px;
+        }
+
+        /*Habilidades*/
+
+        .habilidades{
+            padding: 50px;
+        }
+
+        .titulo-habilidades{
+            font-size: 3em;
+        }
+
+        .conhecimentos{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .HTML{
+            width: 400px;
+            height: 370px;
+        }
+
+        .html-texto{
+            font-size: 1em;
+        }
+
+        .css{
+            width: 400px;
+            height: 370px;
+        }
+
+        .css-texto{
+            font-size: 1em;
+        }
+
+        .js{
+            width: 400px;
+            height: 370px;
+        }
+
+        .js-texto{
+            font-size: 1em;
+        }
+
+        /*Projetos*/
+
+        .titulo-projetos{
+            font-size: 3em;
+            padding-top: 50px;
+        }
+
+        .projetos-grid{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding-bottom: 50px;
+        }
+
+        /*Contato*/
+
+        .contato-titulo{
+            padding-top: 50px;
+        }
+
+        .contato-grid{
+            display: flex;
+        }
+
+        .contato-esquerda1{
+            margin-top: 50px;
+        }
+
+        .contato-img{
+            margin-left: 50px;
+        }
+
+        .contato-h2{
+            font-size: 1.5em;
+        }
+
+        .contato-instagram{
+            padding-top: 10px;
+        }
+    }
+
+    @media (max-width: 950px){
+        /*Conhecimento*/
+
+        .conhecimentos{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .HTML{
+            height: 300px;
+        }
+
+        .css{
+            height: 300px;
+        }
+
+        .js{
+            height: 300px;
+        }
+
+        /*Contato*/
+
+        .contato-escrito{
+            padding-right: 50px;
+        }
+    }
+
+    @media (max-width: 850px){
+        .sobre-mim{
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 776px){
+        .texto-principal{
+            margin: auto;
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+
+        .imagem-principal{
+            display: none;
+        }
+
+        .titulo-sobre-mim{
+            text-align: center;
+        }
+
+        .curriculo{
+            margin: auto;
+        }
+
+        .projetos-grid{
+            margin: 50px;
+        }
+
+        .contato-esquerda1{
+            flex-direction: column;
+        }
+
+        .contato-img{
+            margin: auto;
+        }
+
+        .contato-escrito{
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contato-instagram{
+            padding-left: 50px;
+        }
+
+        .contato-whatsapp{
+            padding-left: 50px;
+        }
     }
